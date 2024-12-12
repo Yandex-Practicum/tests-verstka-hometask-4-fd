@@ -45,14 +45,14 @@ const app = async (projectPath, lng) => {
       mkfile('index.html'),
       mkdir('scripts', [
         mkfile('like.js'),
-        mkfile('set-theme.js'),
+        //mkfile('set-theme.js'),
       ]),
       mkdir('styles', [
         mkfile('globals.css'),
         mkfile('style.css'),
         mkfile('variables.css'),
         mkfile('animations.css'),
-        mkfile('themes.css'),
+        //mkfile('themes.css'),
       ]),
       mkdir('fonts', [
         mkfile('fonts.css'),
